@@ -4,14 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="data:,">
+<meta property="og:type" content="website"><meta property="og:url" content="https://mgimaging.github.io/portfolio/"><meta property="og:title" content="Michael Goss · AI Automation Specialist"><meta property="og:description" content="Production AI agent systems for real small businesses, built to spec with safety controls and honest results."><meta property="og:image" content="https://mgimaging.github.io/portfolio/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Michael Goss, AI Automation Specialist: 24/7 radio automation, 40+ shows a week, ~133 bots tracked, 37 pre-registered strategies">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Michael Goss · AI Automation Specialist"><meta name="twitter:description" content="Production AI agent systems for real small businesses, built to spec with safety controls and honest results."><meta name="twitter:image" content="https://mgimaging.github.io/portfolio/assets/og.png">
 <title>Michael Goss · AI Automation Specialist</title>
 <meta name="description" content="Michael Goss: AI automation and operations. Production AI agent systems for real small businesses, built with disciplined risk controls, testing and logging.">
 <script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}})()</script>
 <style>
-:root{--ink:#14212a;--muted:#56656f;--accent:#1b6f86;--accent-d:#12505f;--soft:#e6f1f4;--bg:#f5f7f8;--card:#fff;--line:#dde4e8;--shadow:0 1px 2px rgba(16,40,50,.05),0 6px 20px rgba(16,40,50,.06);
+:root{--res:#a8660b;--ink:#14212a;--muted:#56656f;--accent:#1b6f86;--accent-d:#12505f;--soft:#e6f1f4;--bg:#f5f7f8;--card:#fff;--line:#dde4e8;--shadow:0 1px 2px rgba(16,40,50,.05),0 6px 20px rgba(16,40,50,.06);
 --head:"Avenir Next","Avenir","Segoe UI Variable Display","Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif;--body:Charter,"Bitstream Charter","Iowan Old Style","Sitka Text",Cambria,Georgia,serif;color-scheme:light}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--ink:#e5edf1;--muted:#9aaab4;--accent:#5cc0d8;--accent-d:#8bd6e8;--soft:#173640;--bg:#0d161b;--card:#142128;--line:#23343d;--shadow:0 1px 2px rgba(0,0,0,.3);color-scheme:dark}}
-:root[data-theme=dark]{--ink:#e5edf1;--muted:#9aaab4;--accent:#5cc0d8;--accent-d:#8bd6e8;--soft:#173640;--bg:#0d161b;--card:#142128;--line:#23343d;--shadow:0 1px 2px rgba(0,0,0,.3);color-scheme:dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--ink:#e5edf1;--muted:#9aaab4;--accent:#5cc0d8;--res:#f2b84b;--accent-d:#8bd6e8;--soft:#173640;--bg:#0d161b;--card:#142128;--line:#23343d;--shadow:0 1px 2px rgba(0,0,0,.3);color-scheme:dark}}
+:root[data-theme=dark]{--ink:#e5edf1;--muted:#9aaab4;--accent:#5cc0d8;--res:#f2b84b;--accent-d:#8bd6e8;--soft:#173640;--bg:#0d161b;--card:#142128;--line:#23343d;--shadow:0 1px 2px rgba(0,0,0,.3);color-scheme:dark}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:60px}
 body{margin:0;font-family:var(--body);color:var(--ink);background:var(--bg);line-height:1.6;font-size:17px;overflow-x:hidden}
@@ -76,19 +78,65 @@ footer{padding:44px 0 54px;color:var(--muted);font-size:.92rem}
 @media (max-width:820px){
  body{font-size:16px}.hero h1{font-size:2.2rem}.hero .title{font-size:1.05rem}header.hero{padding:46px 0 40px}
  .strip .wrap{grid-template-columns:repeat(2,1fr)}.strip .metric:nth-child(3){border-left:0}.strip .metric:nth-child(n+3){border-top:1px solid var(--line)}
- .case{grid-template-columns:1fr}.case figure img{height:auto;aspect-ratio:16/10}.case .body{padding:20px 18px}
+ .case{grid-template-columns:1fr}.case .body{padding:20px 18px}
  .grid{grid-template-columns:1fr;gap:2px}.grid dd{margin-bottom:10px}
  .how,.skills{grid-template-columns:1fr}
 }
 @media (prefers-reduced-motion:reduce){*,*::before{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}.case:hover,.cards>div:hover,.btn:hover{transform:none}.case:hover figure img{transform:none}}
+
+header.hero{position:relative;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Ccircle cx='2' cy='2' r='1' fill='%23ffffff' fill-opacity='.06'/%3E%3C/svg%3E"),radial-gradient(1200px 400px at 85% -10%,rgba(127,209,227,.25),transparent),linear-gradient(135deg,#0c2b37,#1b6f86)}
+.hero-top{display:flex;align-items:center;gap:22px}
+.mono{width:88px;height:88px;flex:none;border-radius:50%;overflow:hidden;box-shadow:0 0 0 3px rgba(255,255,255,.25)}
+.mono img,.mono svg{width:100%;height:100%;display:block;object-fit:cover}
+.why{font-family:var(--head);font-weight:600;font-size:1.08rem;margin:0 0 10px;max-width:680px}
+.now{display:inline-flex;align-items:center;gap:8px;font-family:var(--head);font-size:.92rem;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:5px 14px;margin:0 0 18px}
+.now i{width:8px;height:8px;border-radius:50%;background:#7be3a0;flex:none}
+.metric b{font-size:2.1rem}.strip .metric b{color:var(--res)}
+.badges .metric b{font-size:1.6rem;color:var(--res)}
+.case h3{font-size:1.6rem}
+.case{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}
+.case figure{min-height:0;background:none;padding:24px 0 24px 24px}
+.case figure .frame{position:relative;border-radius:12px;overflow:hidden;border:1px solid var(--line);aspect-ratio:16/10;background:#0f2a35}
+.case figure .frame::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06),inset 0 -40px 60px -40px rgba(0,0,0,.25);pointer-events:none}
+.case figure img{height:100%;aspect-ratio:16/10}
+figcaption{font-family:var(--head);font-size:.88rem;color:var(--muted);margin-top:10px;line-height:1.4}
+figcaption b{color:var(--res)}
+.case .body{padding:24px 28px}
+.extra{margin:14px 0 0;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.extra img{display:block;width:100%;height:auto}
+.results{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:0 0 30px}
+.results div{border-left:3px solid var(--res);padding:4px 0 4px 14px;font-family:var(--head);font-size:.92rem;color:var(--muted)}
+.results b{display:block;color:var(--ink);font-size:1rem}
+.wont{grid-template-columns:repeat(3,1fr)}
+.wont .ic{background:color-mix(in srgb,var(--res) 15%,transparent);color:var(--res)}
+.loop{list-style:none;margin:20px 0 0;padding:0;display:grid;grid-template-columns:repeat(7,1fr);gap:10px;counter-reset:s}
+.loop li{position:relative;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 12px;font-size:.88rem;color:var(--muted);counter-increment:s}
+.loop li::before{content:counter(s);display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--soft);color:var(--accent-d);font-family:var(--head);font-weight:700;font-size:.85rem;margin-bottom:8px}
+.loop li b{display:block;color:var(--ink);font-family:var(--head);font-size:.95rem;margin-bottom:2px}
+.loop li:last-child::before{background:color-mix(in srgb,var(--res) 20%,transparent);color:var(--res)}
+h3.sm{font-size:1.25rem;margin:40px 0 4px}
+@media (max-width:820px){
+ .case{grid-template-columns:1fr}.now{border-radius:14px}.case figure{padding:18px 18px 0}.case figure img{height:100%}
+ .metric b{font-size:1.7rem}.strip .metric{padding:18px 10px}
+ .badges{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.badges .metric{padding:10px 12px}
+ .results{grid-template-columns:1fr 1fr}.wont{grid-template-columns:1fr}
+ .loop{grid-template-columns:1fr 1fr}.case h3{font-size:1.35rem}.mono{width:64px;height:64px}
+}
+@media (max-width:420px){.results{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header class="hero">
  <div class="wrap">
-  <p class="kicker">Portfolio</p>
-  <h1>Michael Goss</h1>
+  <div class="hero-top">
+   <!-- To use a headshot: replace the <svg> below with <img src="assets/headshot.webp" alt="Michael Goss" width="88" height="88"> -->
+   <div class="mono"><svg viewBox="0 0 88 88" role="img" aria-label="MG monogram"><rect width="88" height="88" fill="#0c2b37"/><circle cx="44" cy="44" r="40" fill="none" stroke="#7fd1e3" stroke-width="1.5" opacity=".6"/><text x="44" y="55" text-anchor="middle" font-family="Avenir Next,Segoe UI,Helvetica,Arial,sans-serif" font-size="32" font-weight="700" fill="#fff" letter-spacing="1">MG</text></svg></div>
+   <div><p class="kicker">Portfolio</p>
+  <h1>Michael Goss</h1></div>
+  </div>
   <div class="title">AI Automation Specialist · AI Operations · AI Agent &amp; Workflow Automation</div>
+  <p class="why">I weld to code by day. I build AI systems the same way: to spec, with safety controls, and honest about results.</p>
+  <p class="now"><i aria-hidden="true"></i>Currently: running 24/7 radio ops for Spaces Media and refining the paper-trading research system</p>
   <p class="lede">I design, deploy and run production AI agent systems for real small businesses, starting with my own. As a certified structural welder, I work to spec, put safety controls first, log everything, and report results honestly.</p>
   <div class="contact">
    <span>Richardton, ND</span>
@@ -107,7 +155,7 @@ footer{padding:44px 0 54px;color:var(--muted);font-size:.92rem}
 </div></div>
 
 <nav class="jump"><div class="wrap">
- <a href="#work">Case studies</a><a href="#how">How I work</a><a href="#skills">Skills</a><a href="Michael_Goss_AI_Resume.pdf">Resume</a>
+ <a href="#work">Case studies</a><a href="#how">How I work</a><a href="#wont">Principles</a><a href="#skills">Skills</a><a href="Michael_Goss_AI_Resume.pdf">Resume</a>
  <button id="theme" type="button" aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
 </div></nav>
 
@@ -115,9 +163,15 @@ footer{padding:44px 0 54px;color:var(--muted);font-size:.92rem}
 <section id="work">
  <h2>Case studies</h2>
  <p class="sub">Each one is a live system: the problem, what I built, the controls, and what happened.</p>
+ <div class="results reveal">
+  <div><b>24/7 broadcast</b>40+ shows a week, thousands of hours on air</div>
+  <div><b>~133 bots ranked</b>public, after-fee, with a published methodology</div>
+  <div><b>37 strategies, no edge</b>pre-registered and reported as-is</div>
+  <div><b>Approval-gated outreach</b>verified contacts and a do-not-contact list</div>
+ </div>
 
  <article class="case reveal">
-  <figure><img src="assets/spaces-media.webp" width="960" height="600" loading="lazy" decoding="async" alt="Spaces Media homepage: a microphone over a starfield with the tagline 'The first premier 24/7 Web3 radio station'"></figure>
+  <figure><div class="frame"><img src="assets/spaces-media.webp" width="960" height="600" loading="lazy" decoding="async" alt="Spaces Media homepage: a retro microphone over a starfield with the tagline 'The first premier 24/7 Web3 radio station'"></div><figcaption><b>Result:</b> 24/7 broadcast, 40+ shows a week, thousands of hours on air.</figcaption></figure>
   <div class="body">
   <h3>Spaces Media: 24/7 X Spaces radio automation <span class="tag">Founder</span></h3>
   <p class="meta"><a href="https://spaces.media" rel="noopener">spaces.media</a> · <a href="https://x.com/Spaces_MediaLLC" rel="noopener">@Spaces_MediaLLC</a></p>
@@ -142,13 +196,14 @@ footer{padding:44px 0 54px;color:var(--muted);font-size:.92rem}
     <li>Routine health checks run as plain scripts with no AI model cost.</li>
     <li>Dangerous commands need my approval, and credentials stay in a vault the agent can't read.</li>
     <li>Every incident becomes a written procedure.</li></ul></dd>
+   <dt>Handoff rule</dt><dd><div class="extra"><img src="assets/handoff-rule.svg" width="960" height="360" decoding="async" alt="Handoff rule diagram: step 1, next host invited; step 2, the guest list must show COHOST; step 3, handoff counted and logged. If not confirmed, retry, then escalate."></div></dd>
    <dt>Results</dt><dd>The station broadcasts 24/7, runs 40+ shows a week, has thousands of hours on air, and has about 5.4k followers on X.</dd>
   </dl></details>
   </div>
  </article>
 
  <article class="case reveal">
-  <figure><img src="assets/botscoreboard.webp" width="960" height="750" loading="lazy" decoding="async" alt="BotScoreboard.com leaderboard ranking Polymarket trading bots by what they kept after fees, with confidence labels and a sampling-bias note"></figure>
+  <figure><div class="frame"><img src="assets/botscoreboard.webp" width="960" height="600" loading="lazy" decoding="async" alt="BotScoreboard.com: the 'Read this first' sampling-bias note above the leaderboard of Polymarket bots, with Confirmed, Self-claimed and Suspected labels and after-fee results"></div><figcaption><b>Result:</b> ~133 bots ranked live, with the sampling-bias note shown before the leaderboard.</figcaption></figure>
   <div class="body">
   <h3>BotScoreboard.com: a public data product</h3>
   <p class="meta"><a href="https://botscoreboard.com" rel="noopener">botscoreboard.com</a> · <a href="https://botscoreboard.com/methodology.html" rel="noopener">methodology</a></p>
@@ -171,7 +226,7 @@ footer{padding:44px 0 54px;color:var(--muted);font-size:.92rem}
  </article>
 
  <article class="case reveal">
-  <figure><img src="assets/trading-pipeline.svg" width="960" height="600" loading="lazy" decoding="async" alt="Diagram of the paper-trading pipeline: signal, rules, risk checks, kill switch, paper order, decision log, daily review"></figure>
+  <figure><div class="frame"><img src="assets/trading-pipeline.svg" width="960" height="600" loading="lazy" decoding="async" alt="Paper-trading pipeline diagram: signal, rules, risk checks, kill switch, paper order, decision log, then a daily review that proposes fixes"></div><figcaption><b>Result:</b> 37 pre-registered strategies, none showed an edge, reported as-is.</figcaption></figure>
   <div class="body">
   <h3>A disciplined AI paper-trading research system</h3>
   <p class="meta">Alpaca paper-trading API · research and paper trading only, no real money</p>
@@ -197,7 +252,7 @@ footer{padding:44px 0 54px;color:var(--muted);font-size:.92rem}
  </article>
 
  <article class="case reveal">
-  <figure><img src="assets/mgi-hero.webp" width="960" height="600" loading="lazy" decoding="async" alt="Michael Goss Imaging homepage: 'See the finished outdoor space before you build', exterior 3D landscape rendering"></figure>
+  <figure><div class="frame"><img src="assets/mgi-renders.webp" width="960" height="600" loading="lazy" decoding="async" alt="Three exterior 3D renders from Michael Goss Imaging: a daytime desert pool terrace with loungers and a pavilion, terraced stone steps with an outdoor kitchen, and the same pool lit at night"></div><figcaption><b>Result:</b> outreach for the studio runs only on verified contacts, with my sign-off.</figcaption></figure>
   <div class="body">
   <h3>Multi-agent operations for Michael Goss Imaging</h3>
   <p class="meta"><a href="https://michaelgossimaging.com" rel="noopener">michaelgossimaging.com</a> · exterior 3D landscape and outdoor-living renderings, built in Structure Studios VIP 3D</p>
@@ -235,6 +290,29 @@ footer{padding:44px 0 54px;color:var(--muted);font-size:.92rem}
   <div class="reveal"><h4><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v18M5 7h14M5 7l-3 7h6zM19 7l-3 7h6z"/></svg></span>Honest evaluation</h4><p>Tests are pre-registered, holdouts stay sealed, and I report results as-is, including when the answer is "no edge."</p></div>
   <div class="reveal"><h4><span class="ic"><svg viewBox="0 0 24 24"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4M14 4l-4 16"/></svg></span>AI-assisted development</h4><p>I design the system and direct AI coding agents, then read, test and run the resulting code.</p></div>
  </div>
+</section>
+
+<section id="wont">
+ <h2>What I won't do</h2>
+ <p class="sub">The lines my systems are built not to cross.</p>
+ <div class="cards wont">
+  <div class="reveal"><h4><span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></span>No profit claims from paper</h4><p>Paper results stay paper. No real-money or profit claims.</p></div>
+  <div class="reveal"><h4><span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></span>No guessed contacts</h4><p>Every contact is verified on the company's own site, never guessed or scraped.</p></div>
+  <div class="reveal"><h4><span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></span>No loosened limits</h4><p>Risk limits are never loosened to force a trade.</p></div>
+  <div class="reveal"><h4><span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></span>No unapproved risky actions</h4><p>Anything that sends, spends or can't be undone waits for my OK.</p></div>
+  <div class="reveal"><h4><span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></span>No secrets in agent hands</h4><p>Credentials stay in a vault the agents can't read.</p></div>
+  <div class="reveal"><h4><span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></span>No unlogged changes</h4><p>Nothing ships without a log of what changed and why.</p></div>
+ </div>
+ <h3 class="sm">The paper-trading daily loop</h3>
+ <ol class="loop reveal">
+  <li><b>Session start</b>paper-only and data checks</li>
+  <li><b>Morning briefing</b>pre-market research brief</li>
+  <li><b>Entries</b>signals pass rules and risk checks</li>
+  <li><b>Management</b>scheduled trade management</li>
+  <li><b>Close</b>end-of-day report</li>
+  <li><b>Daily review</b>automated review proposes fixes</li>
+  <li><b>Next-day improvements</b>parameter changes, at most once a day</li>
+ </ol>
 </section>
 
 <section id="skills">
